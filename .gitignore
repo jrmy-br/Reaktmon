@@ -8,10 +8,13 @@
 # testing
 /coverage
 
+#css 
+main.css
+
 # production
 /build
 
-# misc
+# miscs
 .DS_Store
 .env.local
 .env.development.local

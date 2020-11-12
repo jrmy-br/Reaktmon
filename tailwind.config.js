@@ -30,6 +30,10 @@ module.exports = {
           base: '#EBEBEB',
           dark: '#E0E0E0',
         }
+      },
+      fontFamily: {
+        title: ["Do Hyeon", "sans-serif"],
+        text: ["Rajdhani", "sans-serif"]
       }
     },
   },
