@@ -9,7 +9,7 @@
 /coverage
 
 #css 
-main.css
+/src/assets/main.css
 
 # production
 /build
