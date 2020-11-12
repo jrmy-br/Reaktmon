@@ -10,7 +10,7 @@ test('Nav tag is defined', () => {
 
 test('NavBar have correct classes', () => {
     const { container } = render(<NavBar />);
-    const expectedClasses = ['bg-yellow-base', 'text-black-base', "flex", 'flex-1', 'flex-row', "h-16", 'items-center', 'p-6'];
+    const expectedClasses = ['bg-yellow-base', 'text-black-base', "flex", 'flex-1', 'flex-row', "h-16", 'items-center', 'p-6', 'border-b-2', 'border-yellow-dark'];
     const nav = container.querySelector('nav');
     expect(nav.classList.length).toBe(expectedClasses.length);
     expectedClasses.forEach(function(expecteClass) {
